@@ -33,7 +33,7 @@ print("#Available GPU: \t\t", torch.cuda.device_count())
 parser = argparse.ArgumentParser(description="")
 parser.add_argument('--config_name',
                         #default='example',
-                        default='00_2350bps_L350_S1000_E1000',   #local-1
+                        #default='00_2350bps_L350_S1000_E1000',   #local-1
                         #default='01_2850bps_L350_S1000_E1500',   #s3-1
                         #default='02_1850bps_L350_S500_E1000',    #st9-0
                         #default='03_2850bps_L350_S1500_E1000',   #st9-1
