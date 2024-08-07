@@ -37,6 +37,7 @@ parser.add_argument('--config_name',
                         #default='01_2850bps_L350_S1000_E1500',   #s3-1
                         #default='02_1850bps_L350_S500_E1000',    #st9-0
                         #default='03_2850bps_L350_S1500_E1000',   #st9-1
+                        default='04_2850bps_L350_S1000_E1500_Ecnn',   #st9-1
 
                             type=str, help="(str) Experiment name")
 
